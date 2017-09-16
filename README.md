@@ -10,6 +10,7 @@ A poi.js preset for Mithril and JSX.
 
 ## Instructions
 ```js
+// poi.config.js
 module.exports = {
     presets: [
         require('poi-preset-mithril-jsx')()
