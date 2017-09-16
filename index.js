@@ -8,7 +8,7 @@ module.exports = () => {
                     options.presets = []
                 }
                 return poi.merge(options, {
-                    presets: [require.resolve('babel-preset-es2015')],
+                    presets: [require.resolve('babel-preset-env')],
                     plugins: [
                         require.resolve('babel-plugins-transform-react-jsx')({ pragma: 'm' }),
                         require.resolve('babel-plugin-transform-decorators-legacy'),
